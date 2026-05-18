@@ -1,0 +1,66 @@
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-principal {
+  max-width: 800px;
+}
+
+/* Centrar el formulario de notas */
+.formulario-notas {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/* Centrar textos dentro del formulario */
+.formulario-notas label {
+  display: block;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #1f3c88;
+}
+
+/* Cambia el cursor al pasar por las pestañas */
+.nav-link {
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+/* Espacio interno más cómodo */
+.card-body {
+  padding: 30px;
+}
+
+.campos {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Botones Calcular y Enviar */
+.botones {
+  background-color: blue;
+  color: white;
+  border: none;
+  display: block;
+  margin: 18px auto 0 auto;
+  padding: 8px 18px;
+}
+
+/* Efecto al pasar el mouse */
+.botones:hover {
+  background-color: #003cff;
+  color: white;
+}
+
+/* Mensajes de error */
+.text-danger {
+  font-size: 14px;
+  text-align: center;
+}
